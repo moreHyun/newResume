@@ -1,0 +1,136 @@
+/* ----- * ----- */
+body {
+  margin : 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ----- navbar ----- */
+.navbar {
+  background-color: #A9D0F5;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+.navbar > ul {
+  display: flex;
+}
+
+.navbar > ul > li {
+  display: flex;
+  margin-right: 24px;
+  font-size: 14px;
+}
+
+.navbar > ul > li > a {
+  color: white;
+}
+
+/* ----- header ----- */
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.profile > img {
+  width: 14%;
+}
+
+.prof-hello {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.prof-hello p {
+  border-left: 5px solid #81BEF7;
+  padding-left: 20px;
+  font-size: 14px;
+}
+
+/* ----- components ----- */
+
+.components {
+  margin-left: 360px;
+  margin-right: 320px;
+}
+
+/* ----- components - skill ----- */
+
+.components .skill > h2 {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 8px;
+  text-indent: 0.3em;
+  font-weight: bold;
+}
+
+.components .skill > h2 > span {
+  color: #81BEF7;
+}
+
+.skill-tree {
+  text-indent: 0.3em;
+}
+
+.skill-tree ul {
+  margin-bottom: 30px;
+}
+
+.skill-tree li {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.skill-tree li::marker {
+  color: #81BEF7;
+  font-size: 14px;
+}
+
+/* ----- components - project ----- */
+
+.project {
+  margin-top: 70px;
+}
+
+.project > h2 {
+  border-bottom: 1px solid lightgray;
+  padding-bottom: 8px;
+  text-indent: 0.3em;
+  font-weight: bold;
+}
+
+.components .project > h2 > span {
+  color: #81BEF7;
+}
+
+.mingle-profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mingle-profile > a {
+  font-size: 14px;
+  margin-right: 20px;
+  border: 1px solid gray;
+}
+
+#mingle-icon {
+  width: 90px;
+  margin-left: 0.3em;
+  margin-bottom: 4px;
+}
+
+#mingle-link {
+  width: 24px;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.mingle-image > span {
+  font-size: 14px;
+  margin-left: 0.3em;
+}
